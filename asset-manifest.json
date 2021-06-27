@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/HaptikFriendList/static/css/main.1c00e114.chunk.css",
-    "main.js": "/HaptikFriendList/static/js/main.5c4b4214.chunk.js",
-    "main.js.map": "/HaptikFriendList/static/js/main.5c4b4214.chunk.js.map",
-    "runtime-main.js": "/HaptikFriendList/static/js/runtime-main.752a8343.js",
-    "runtime-main.js.map": "/HaptikFriendList/static/js/runtime-main.752a8343.js.map",
-    "static/js/2.08e9740d.chunk.js": "/HaptikFriendList/static/js/2.08e9740d.chunk.js",
-    "static/js/2.08e9740d.chunk.js.map": "/HaptikFriendList/static/js/2.08e9740d.chunk.js.map",
-    "static/js/3.33be756a.chunk.js": "/HaptikFriendList/static/js/3.33be756a.chunk.js",
-    "static/js/3.33be756a.chunk.js.map": "/HaptikFriendList/static/js/3.33be756a.chunk.js.map",
-    "index.html": "/HaptikFriendList/index.html",
-    "static/css/main.1c00e114.chunk.css.map": "/HaptikFriendList/static/css/main.1c00e114.chunk.css.map",
-    "static/js/2.08e9740d.chunk.js.LICENSE.txt": "/HaptikFriendList/static/js/2.08e9740d.chunk.js.LICENSE.txt"
+    "main.css": "/Haptik-FriendList/static/css/main.1c00e114.chunk.css",
+    "main.js": "/Haptik-FriendList/static/js/main.5c4b4214.chunk.js",
+    "main.js.map": "/Haptik-FriendList/static/js/main.5c4b4214.chunk.js.map",
+    "runtime-main.js": "/Haptik-FriendList/static/js/runtime-main.7a82d5aa.js",
+    "runtime-main.js.map": "/Haptik-FriendList/static/js/runtime-main.7a82d5aa.js.map",
+    "static/js/2.08e9740d.chunk.js": "/Haptik-FriendList/static/js/2.08e9740d.chunk.js",
+    "static/js/2.08e9740d.chunk.js.map": "/Haptik-FriendList/static/js/2.08e9740d.chunk.js.map",
+    "static/js/3.33be756a.chunk.js": "/Haptik-FriendList/static/js/3.33be756a.chunk.js",
+    "static/js/3.33be756a.chunk.js.map": "/Haptik-FriendList/static/js/3.33be756a.chunk.js.map",
+    "index.html": "/Haptik-FriendList/index.html",
+    "static/css/main.1c00e114.chunk.css.map": "/Haptik-FriendList/static/css/main.1c00e114.chunk.css.map",
+    "static/js/2.08e9740d.chunk.js.LICENSE.txt": "/Haptik-FriendList/static/js/2.08e9740d.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.752a8343.js",
+    "static/js/runtime-main.7a82d5aa.js",
     "static/js/2.08e9740d.chunk.js",
     "static/css/main.1c00e114.chunk.css",
     "static/js/main.5c4b4214.chunk.js"
