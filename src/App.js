@@ -7,6 +7,7 @@ function App() {
   const [friendInput, setFriendInput] = useState("");
   const [friendListState, setFriendListState] = useState(friendList['friends']);
   const [favouriteList, setFavouriteList] = useState(friendList['favorites']);
+  const [page, setPage] = useState(1);
   const displayFriendList=()=>{
       let sortedArray = [];
       friendListState.forEach((item,index)=>{
@@ -25,7 +26,7 @@ function App() {
             maxHeight: "324px"
             }}
         >
-            {sortedArray.map((item,index)=>
+            {sortedArray.slice((page-1)*10,(page*10)).map((item,index)=>
             {
               let isFavourite = favouriteList.includes(item);
               return (
@@ -107,6 +108,16 @@ function App() {
     setFriendListState(result)
   }
 
+  const showPagination=()=>{
+    let arr=[];
+    for(let i=1;i<=Math.ceil(friendListState.length/10);i++)
+      arr.push(i);
+    return arr.map((item,index)=>{
+      let isActive = item===page;
+      return <button className="paginationButtons" style={{backgroundColor: isActive?"blue":"white",color:isActive?"white":"black"}} key={index} onClick={()=>setPage(item)}>{item}</button>
+    })
+  }
+
   return (
     <div className="App">
       <div style={{width:"32vw", border:"1px solid lightgray", backgroundColor:"white"}}>
@@ -122,6 +133,7 @@ function App() {
         </div>
         {friendListState && displayFriendList()}
       </div>
+      <div style={{margin:"20px auto", width:"50%"}}>{friendListState && showPagination()}</div>
     </div>
   );
 }
